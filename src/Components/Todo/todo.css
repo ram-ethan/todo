@@ -1,0 +1,87 @@
+.todo {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.ins {
+    border: none;
+    outline: none;
+}
+
+.inp {
+    /* border: 1px solid black; */
+    border-radius: 9px;
+    box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#text-area {
+    display: none;
+}
+
+.btns1 {
+    background-color: rgb(255 21 1);
+    border-radius: 5px;
+    color: white !important;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+}
+
+.todo-card {
+    border: 1px solid black;
+}
+
+.todo-card-p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.card-icons {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.del {
+    color: red;
+}
+
+.card-icon-head {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.card-icon-head:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cs {
+    margin-right: 1vw;
+}
+
+.todo-update {
+    position: absolute;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 80vh;
+    background-color: #ffcc7e;
+    display: none;
+}
+
+.update {
+    height: 100%;
+}
+
+.wid {
+    width: 50%;
+}
+
+@media (max-width:600px) {
+    .wid {
+        width: 100%;
+    }
+
+}
